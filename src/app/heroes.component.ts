@@ -77,7 +77,6 @@ export class HeroesComponent implements OnInit {
   name = 'Angular';
   heroes: Hero[];
   selectedHero: Hero;
-  providers: [HeroService];
 
   constructor(private heroService: HeroService) { }
 
